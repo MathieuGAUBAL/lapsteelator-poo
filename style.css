@@ -1,0 +1,44 @@
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+.caseNote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 0.2px solid grey;
+}
+
+.notePrincipale {
+    font-weight: bold;
+    background-color: burlywood;
+}
+
+span {
+    pointer-events: none;
+}
+
+.repere {
+ /*    color: #fff; */
+    background-color: cadetblue;
+}
+
+.mode{
+    background-color:rgb(44, 44, 44);
+    color: #fff;
+    border-radius: 100%;
+    width: 30px;
+    text-align: center;
+}
+
+.tonique{
+    background-color:rgb(255, 43, 43);
+    color: #fff;
+    border-radius: 100%;
+    width: 30px;
+    text-align: center;
+
+}
